@@ -8,6 +8,6 @@ resource "aws_instance" "test" {
   instance_type = "t2.micro"
   vpc_security_group_ids = ["vpc-0d20c97da752ee7fb"]
   tags = {
-    Name = "Test EC2 Instance"
+    Name = "Test EC2 Instance Change" 
   }
 }
